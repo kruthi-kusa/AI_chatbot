@@ -12,8 +12,6 @@ import chainlit as cl
 #HUGGINFACEHUB_API_TOKEN=getpass()
 #os.environ['HUGGINFACEHUB_API_TOKEN']=HUGGINFACEHUB_API_TOKEN
 
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = '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'  
-
 load_dotenv()
 
 model_id = "gpt2-medium"
